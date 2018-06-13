@@ -1,0 +1,14 @@
+{
+  "name": "js-algorithm-questions",
+  "version": "1.0.0",
+  "description": "Common algorithm questions with JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Bijan Parsiyar",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^23.1.0"
+  }
+}

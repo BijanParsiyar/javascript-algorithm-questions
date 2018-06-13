@@ -1,0 +1,19 @@
+// Given an interget, return an integer that is the reverse ordering of numbers
+
+function reverseInt(n) {
+  const reversed = n
+    .toString()
+    .split("")
+    .reverse()
+    .join("");
+
+  return parseInt(reversed) * Math.sign(n);
+}
+
+module.exports = reverseInt;
+
+/*
+if (n < 0) {
+    return parseInt(reversed) * -1;
+  }
+*/
